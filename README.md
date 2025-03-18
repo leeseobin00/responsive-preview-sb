@@ -16,13 +16,13 @@ A Component for toggling between web table, and mobile views
 아래 명령어를 통해 패키지를 설치할 수 있습니다.
 
 ```sh
-npm install responsive-preview
+npm install responsive-preview-sb
 ```
 
 또는
 
 ```sh
-yarn add responsive-preview
+yarn add responsive-preview-sb
 ```
 
 ## 사용법
