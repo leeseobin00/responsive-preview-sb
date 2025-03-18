@@ -27,32 +27,63 @@ yarn add responsive-preview
 
 ## 사용법
 
-`ResponsivePreview` 컴포넌트를 불러와서 활용할 수 있습니다.
+`ResponsivePreview` 컴포넌트를 사용하여 데스크톱, 태블릿, 모바일 뷰를 전환하는 예제입니다.
 
-예제 1)
-
+#### 예제 1) 
 ```tsx
 <ResponsivePreview defaultView="desktop" mobileWidth={375} tabletWidth={768}>
   <iframe
-    src="https://example.com/"
+    src="https://leeseobin.tistory.com/"
     width="100%"
     height="600px"
-    title="Website Preview"
+    title="Blog Website Preview"
     frameBorder="0"
   />
 </ResponsivePreview>
 ```
 
-예제 2)
+**데스크탑 뷰**
+![image](https://github.com/user-attachments/assets/9e2c0447-6f74-48ba-b341-cd637b578cab)
 
+
+**태블릿 뷰**
+![image](https://github.com/user-attachments/assets/d40081bf-eb7c-4145-857d-878c693bd0b0)
+
+
+**모바일 뷰**
+![image](https://github.com/user-attachments/assets/32495fbf-618b-4daf-98a4-44c019373faa)
+
+
+
+#### 예제 2) 
 ```tsx
-<ResponsivePreview defaultView="mobile" mobileWidth={375} tabletWidth={768}>
-  <div style={{ padding: "20px", backgroundColor: "#f0f0f0" }}>
-    <h2>미리보기 콘텐츠</h2>
-    <p>이곳에서 모바일과 태블릿 버전의 UI를 테스트할 수 있습니다.</p>
-  </div>
+<ResponsivePreview
+  defaultView="mobile"
+  mobileWidth={375}
+  tabletWidth={768}
+  >
+    <div style={{ padding: "20px", backgroundColor: "#f0f0f0" }}>
+      <h2>미리보기 콘텐츠</h2>
+      <p>이곳에서 모바일과 태블릿 버전의 UI를 테스트할 수 있습니다.</p>
+    </div>
 </ResponsivePreview>
 ```
+
+**데스크탑 뷰**
+![image](https://github.com/user-attachments/assets/ec4d5218-62ec-4b97-8aec-59bb4c0e9c76)
+
+
+
+**태블릿 뷰**
+![image](https://github.com/user-attachments/assets/ead6e0e9-08b2-46f6-a272-ffef25edce97)
+
+
+
+**모바일 뷰**
+![image](https://github.com/user-attachments/assets/9593ba30-4071-4d9d-a370-2d152f2b8be4)
+
+
+
 
 ## Props 설명
 
