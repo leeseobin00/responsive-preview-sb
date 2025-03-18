@@ -147,7 +147,7 @@ yarn add responsive-preview-sb
 ### 프로젝트 설정
 
 ```sh
-git clone https://github.com/your-repo/responsive-preview.git
+git clone https://github.com/leeseobin00/Responsive-Preview.git
 cd responsive-preview
 ```
 
