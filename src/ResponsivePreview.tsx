@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ResponsivePreview.css";
+import "./ResponsivePreview.scss";
 
 interface ResponsivePreviewProps {
   children: React.ReactNode;

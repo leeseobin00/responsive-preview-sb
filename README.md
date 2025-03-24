@@ -30,6 +30,7 @@ yarn add responsive-preview-sb
 Here’s an example of how to use the `ResponsivePreview` component to switch between desktop, tablet, and mobile views.
 
 ### Example 1
+
 ```tsx
 <ResponsivePreview defaultView="desktop" mobileWidth={375} tabletWidth={768}>
   <iframe
@@ -45,10 +46,8 @@ Here’s an example of how to use the `ResponsivePreview` component to switch be
 **Desktop View**
 ![image](https://github.com/user-attachments/assets/bc1b34df-e08c-416f-85b4-16532847afa5)
 
-
 **Tablet View**
 ![image](https://github.com/user-attachments/assets/21da809b-1337-4e3b-94c0-39f44275df1a)
-
 
 **Mobile View**
 ![image](https://github.com/user-attachments/assets/5810bba6-7d42-4a3e-990b-523b53067431)
@@ -56,12 +55,9 @@ Here’s an example of how to use the `ResponsivePreview` component to switch be
 ---
 
 ### Example 2
+
 ```tsx
-<ResponsivePreview
-  defaultView="mobile"
-  mobileWidth={375}
-  tabletWidth={768}
->
+<ResponsivePreview defaultView="mobile" mobileWidth={375} tabletWidth={768}>
   <h2 className="responsive-title">Responsive UI Test</h2>
   <p className="responsive-description">
     Resize the screen to see how the layout adapts to different devices. ...
@@ -90,13 +86,13 @@ Here’s an example of how to use the `ResponsivePreview` component to switch be
 
 ## Props
 
-| Prop Name     | Type        | Default   | Description                                      |
-|--------------|------------|-----------|--------------------------------------------------|
-| `children`   | `ReactNode` | `null`    | The content to be previewed inside the component |
+| Prop Name     | Type        | Default   | Description                                         |
+| ------------- | ----------- | --------- | --------------------------------------------------- |
+| `children`    | `ReactNode` | `null`    | The content to be previewed inside the component    |
 | `defaultView` | `string`    | `desktop` | The initial view (`desktop`, `tablet`, or `mobile`) |
-| `mobileWidth` | `number`    | `375`     | Width of the mobile view (in px)                 |
-| `tabletWidth` | `number`    | `768`     | Width of the tablet view (in px)                 |
-| `className`   | `string`    | `""`      | Additional class name for custom styling         |
+| `mobileWidth` | `number`    | `375`     | Width of the mobile view (in px)                    |
+| `tabletWidth` | `number`    | `768`     | Width of the tablet view (in px)                    |
+| `className`   | `string`    | `""`      | Additional class name for custom styling            |
 
 ## Style Guide
 
