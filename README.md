@@ -146,8 +146,8 @@ The component provides default styles that can be customized as needed.
 ### Project Setup
 
 ```sh
-git clone https://github.com/leeseobin00/Responsive-Preview.git
-cd responsive-preview
+git clone https://github.com/leeseobin00/responsive-preview-sb.git
+cd responsive-preview-sb
 ```
 
 ## License
